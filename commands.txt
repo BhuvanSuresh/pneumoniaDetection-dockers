@@ -1,0 +1,2 @@
+docker build --tag ai-django .
+docker run --publish 8000:8000 ai-django
