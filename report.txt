@@ -1,1 +1,29 @@
-hey
+pip list --format=freeze > requirements.txt
+
+To install requirements.txt which contains the libaries required to run the container
+
+Create a file called .dockerignore
+
+Create a file called Dockerfile
+
+Create a file called docker-compose.yml
+
+To upload image on docker-
+
+docker build --tag ai-django
+
+Build image with name ai-django
+
+To run the image in a container
+
+docker run --publish 8000:8000 ai-django
+
+To upload to docker cloud repository
+
+Create repo
+
+Push image on local device to the repo using the command-
+
+docker tag ai-django account_name/repo_name:ai-django
+
+docker push account_name/repo_name:ai-django
